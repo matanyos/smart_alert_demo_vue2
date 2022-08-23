@@ -4,10 +4,11 @@
   <div class='headerFooter'> 
     <img src="./assets/MinuendoLogo.png" height="120" style="margin-top:80px">
     <h2 style="color:white;font-weight: lighter;letter-spacing: 3px;font-family:">Smart Alert</h2>
-    <v-btn class="red white--text">Log In</v-btn>
   </div>
-  <div class='mainBody'>
-
+  <div class='mainBody' style="text-align:center">
+    <p style="margin-right: 244px;" class="white--text">E-mail:</p>
+          <v-text-field class="centered-input text--darken-3 mt-3" style="width:300px"  label="E-mail:" solo dense></v-text-field>
+    <v-btn depressed dark large class="rounded-pill" color="red" style="width:300px">Log In</v-btn>
   </div>
   <div class='headerFooter'>
 
@@ -40,7 +41,9 @@ body {
 
 .mainBody {
   min-height: 50vh;
-  background-color:#1a2225
+  background-color:#1a2225;
 }
-
+.centered-input input {
+  text-align: center
+}
 </style>
